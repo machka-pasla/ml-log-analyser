@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#94A3B8" />
+    </marker>
+    <symbol id="icon-doc" viewBox="0 0 24 24">
+      <path fill="#1F2937" fill-rule="evenodd" d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625ZM7.5 15a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 7.5 15Zm.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5H8.25Z" clip-rule="evenodd"/>
+      <path fill="#1F2937" d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"/>
+    </symbol>
+    <symbol id="icon-cpu" viewBox="0 0 24 24">
+      <path fill="#1F2937" d="M16.5 7.5h-9v9h9v-9Z"/>
+      <path fill="#1F2937" fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd"/>
+    </symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24">
+      <path fill="#1F2937" fill-rule="evenodd" d="M12.516 2.17a.75.75 0 0 0-1.032 0 11.209 11.209 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08Zm3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd"/>
+    </symbol>
+    <symbol id="icon-db" viewBox="0 0 24 24">
+      <path fill="#1F2937" d="M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875Z"/>
+      <path fill="#1F2937" d="M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.283 8.283 0 0 0 1.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.285 8.285 0 0 0 1.897 1.384C6.809 12.164 9.315 12.75 12 12.75Z"/>
+      <path fill="#1F2937" d="M12 16.5c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 0 0 1.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 0 0 1.897 1.384C6.809 15.914 9.315 16.5 12 16.5Z"/>
+      <path fill="#1F2937" d="M12 20.25c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 0 0 1.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 0 0 1.897 1.384C6.809 19.664 9.315 20.25 12 20.25Z"/>
+    </symbol>
+    <symbol id="icon-chart" viewBox="0 0 24 24">
+      <path fill="#1F2937" d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z"/>
+    </symbol>
+  </defs>
+
+  <rect x="20" y="30" width="1160" height="220" rx="26" fill="#F8FAFC" stroke="#E2E8F0" />
+
+  <line x1="210" y1="130" x2="230" y2="130" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="400" y1="130" x2="420" y2="130" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="590" y1="130" x2="610" y2="130" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="780" y1="130" x2="800" y2="130" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="970" y1="130" x2="990" y2="130" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)" />
+
+  <g>
+    <rect x="40" y="70" width="170" height="120" rx="16" fill="#FFFFFF" stroke="#CBD5E1" />
+    <use href="#icon-doc" x="58" y="88" width="32" height="32" />
+    <text x="58" y="142" font-family="Times New Roman, serif" font-size="14" font-weight="bold" fill="#1F2937">Логи</text>
+    <text x="58" y="162" font-family="Times New Roman, serif" font-size="12" fill="#475569">JSONL / Plain</text>
+  </g>
+
+  <g>
+    <rect x="230" y="70" width="170" height="120" rx="16" fill="#FFFFFF" stroke="#CBD5E1" />
+    <use href="#icon-shield" x="248" y="88" width="32" height="32" />
+    <text x="248" y="142" font-family="Times New Roman, serif" font-size="14" font-weight="bold" fill="#1F2937">Парсинг</text>
+    <text x="248" y="162" font-family="Times New Roman, serif" font-size="12" fill="#475569">Валидация</text>
+  </g>
+
+  <g>
+    <rect x="420" y="70" width="170" height="120" rx="16" fill="#FFFFFF" stroke="#CBD5E1" />
+    <use href="#icon-cpu" x="438" y="88" width="32" height="32" />
+    <text x="438" y="142" font-family="Times New Roman, serif" font-size="14" font-weight="bold" fill="#1F2937">Фичи</text>
+    <text x="438" y="162" font-family="Times New Roman, serif" font-size="12" fill="#475569">Векторизация</text>
+  </g>
+
+  <g>
+    <rect x="610" y="70" width="170" height="120" rx="16" fill="#FFFFFF" stroke="#CBD5E1" />
+    <use href="#icon-cpu" x="628" y="88" width="32" height="32" />
+    <text x="628" y="142" font-family="Times New Roman, serif" font-size="14" font-weight="bold" fill="#1F2937">Модель</text>
+    <text x="628" y="162" font-family="Times New Roman, serif" font-size="12" fill="#475569">IF / Baseline</text>
+  </g>
+
+  <g>
+    <rect x="800" y="70" width="170" height="120" rx="16" fill="#FFFFFF" stroke="#CBD5E1" />
+    <use href="#icon-db" x="818" y="88" width="32" height="32" />
+    <text x="818" y="142" font-family="Times New Roman, serif" font-size="14" font-weight="bold" fill="#1F2937">Хранилище</text>
+    <text x="818" y="162" font-family="Times New Roman, serif" font-size="12" fill="#475569">PostgreSQL</text>
+  </g>
+
+  <g>
+    <rect x="990" y="70" width="170" height="120" rx="16" fill="#FFFFFF" stroke="#CBD5E1" />
+    <use href="#icon-chart" x="1008" y="88" width="32" height="32" />
+    <text x="1008" y="142" font-family="Times New Roman, serif" font-size="14" font-weight="bold" fill="#1F2937">API/Дашборд</text>
+    <text x="1008" y="162" font-family="Times New Roman, serif" font-size="12" fill="#475569">Метрики</text>
+  </g>
+</svg>

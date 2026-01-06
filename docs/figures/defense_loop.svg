@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <style>
+      .box { fill: #f7f9fc; stroke: #2c4b8e; stroke-width: 2; }
+      .label { font-family: "Times New Roman"; font-size: 20px; fill: #1b2a57; }
+      .icon { stroke: #2c4b8e; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2c4b8e" />
+    </marker>
+    <symbol id="icon-shield" viewBox="0 0 24 24">
+      <path class="icon" d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+      <path class="icon" d="M15 19l2 2l4 -4" />
+    </symbol>
+  </defs>
+
+  <rect class="box" x="350" y="40" width="200" height="70" rx="16" />
+  <rect class="box" x="610" y="215" width="230" height="70" rx="16" />
+  <rect class="box" x="350" y="390" width="200" height="70" rx="16" />
+  <rect class="box" x="60" y="215" width="230" height="70" rx="16" />
+
+  <text class="label" x="450" y="85" text-anchor="middle">
+    <tspan x="450" dy="0">Сбор и</tspan>
+    <tspan x="450" dy="22">нормализация</tspan>
+  </text>
+  <text class="label" x="725" y="260" text-anchor="middle">
+    <tspan x="725" dy="0">Анализ и</tspan>
+    <tspan x="725" dy="22">скоринг</tspan>
+  </text>
+  <text class="label" x="450" y="435" text-anchor="middle">
+    <tspan x="450" dy="0">Оповещение</tspan>
+    <tspan x="450" dy="22">и приоритизация</tspan>
+  </text>
+  <text class="label" x="175" y="260" text-anchor="middle">
+    <tspan x="175" dy="0">Реакция</tspan>
+    <tspan x="175" dy="22">и обратная связь</tspan>
+  </text>
+
+  <circle cx="450" cy="250" r="65" fill="#ffffff" stroke="#2c4b8e" stroke-width="2" />
+  <use href="#icon-shield" x="410" y="210" width="80" height="80" />
+
+  <line x1="550" y1="75" x2="610" y2="215" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="840" y1="250" x2="550" y2="390" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="350" y1="425" x2="290" y2="285" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="60" y1="250" x2="350" y2="110" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

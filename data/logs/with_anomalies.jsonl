@@ -1,0 +1,5 @@
+{"timestamp":"2026-01-15T10:10:00+00:00","host":"auth-svc","level":"INFO","message":"User login succeeded","user":"alice","ip":"10.0.0.10","request_id":"req-2001"}
+{"timestamp":"2026-01-15T10:11:00+00:00","host":"web-01","level":"INFO","message":"Request completed","user":"bob","ip":"10.0.0.11","request_id":"req-2002"}
+{"timestamp":"2026-01-15T10:12:00+00:00","host":"edge-gw","level":"DEBUG","message":"Cache hit","user":"carol","ip":"10.0.0.12","request_id":"req-2003"}
+{"timestamp":"2026-01-15T10:13:00+00:00","host":"auth-svc","level":"CRITICAL","message":"Multiple failed logins detected","user":"alice","ip":"203.0.113.45","request_id":"anomaly-9001"}
+{"timestamp":"2026-01-15T10:14:00+00:00","host":"core-db","level":"ALERT","message":"Unexpected outbound connection to 203.0.113.45","user":"ops","ip":"203.0.113.45","request_id":"anomaly-9002"}

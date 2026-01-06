@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <style>
+      .box { fill: #f7f9fc; stroke: #2c4b8e; stroke-width: 2; }
+      .label { font-family: "Times New Roman"; font-size: 20px; fill: #1b2a57; }
+      .icon { stroke: #2c4b8e; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2c4b8e" />
+    </marker>
+    <symbol id="icon-server" viewBox="0 0 24 24">
+      <path class="icon" d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3" />
+      <path class="icon" d="M3 15a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -2" />
+      <path class="icon" d="M7 8l0 .01" />
+      <path class="icon" d="M7 16l0 .01" />
+    </symbol>
+    <symbol id="icon-filter" viewBox="0 0 24 24">
+      <path class="icon" d="M4 4h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414v7l-6 2v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227" />
+    </symbol>
+    <symbol id="icon-chart" viewBox="0 0 24 24">
+      <path class="icon" d="M4 19l16 0" />
+      <path class="icon" d="M4 15l4 -6l4 2l4 -5l4 4" />
+    </symbol>
+    <symbol id="icon-brain" viewBox="0 0 24 24">
+      <path class="icon" d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8" />
+      <path class="icon" d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8" />
+      <path class="icon" d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5" />
+      <path class="icon" d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0" />
+      <path class="icon" d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5" />
+      <path class="icon" d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10" />
+    </symbol>
+    <symbol id="icon-alert" viewBox="0 0 24 24">
+      <path class="icon" d="M12 9v4" />
+      <path class="icon" d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+      <path class="icon" d="M12 16h.01" />
+    </symbol>
+    <symbol id="icon-refresh" viewBox="0 0 24 24">
+      <path class="icon" d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+      <path class="icon" d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+    </symbol>
+  </defs>
+
+  <rect class="box" x="20" y="100" width="180" height="120" rx="16" />
+  <rect class="box" x="220" y="100" width="180" height="120" rx="16" />
+  <rect class="box" x="420" y="100" width="180" height="120" rx="16" />
+  <rect class="box" x="620" y="100" width="180" height="120" rx="16" />
+  <rect class="box" x="820" y="100" width="180" height="120" rx="16" />
+  <rect class="box" x="1020" y="100" width="160" height="120" rx="16" />
+
+  <use href="#icon-server" x="80" y="120" width="60" height="60" />
+  <use href="#icon-filter" x="280" y="120" width="60" height="60" />
+  <use href="#icon-chart" x="480" y="120" width="60" height="60" />
+  <use href="#icon-brain" x="680" y="120" width="60" height="60" />
+  <use href="#icon-alert" x="880" y="120" width="60" height="60" />
+  <use href="#icon-refresh" x="1060" y="120" width="60" height="60" />
+
+  <text class="label" x="110" y="200" text-anchor="middle">
+    <tspan x="110" dy="0">Сбор</tspan>
+    <tspan x="110" dy="22">логов</tspan>
+  </text>
+  <text class="label" x="310" y="200" text-anchor="middle">
+    <tspan x="310" dy="0">Нормали-</tspan>
+    <tspan x="310" dy="22">зация</tspan>
+  </text>
+  <text class="label" x="510" y="200" text-anchor="middle">
+    <tspan x="510" dy="0">Признаки</tspan>
+  </text>
+  <text class="label" x="710" y="200" text-anchor="middle">
+    <tspan x="710" dy="0">Обучение</tspan>
+  </text>
+  <text class="label" x="910" y="200" text-anchor="middle">
+    <tspan x="910" dy="0">Скоринг</tspan>
+    <tspan x="910" dy="22">и алерты</tspan>
+  </text>
+  <text class="label" x="1100" y="200" text-anchor="middle">
+    <tspan x="1100" dy="0">Переобу-</tspan>
+    <tspan x="1100" dy="22">чение</tspan>
+  </text>
+
+  <line x1="200" y1="160" x2="220" y2="160" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="400" y1="160" x2="420" y2="160" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="600" y1="160" x2="620" y2="160" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="800" y1="160" x2="820" y2="160" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="1000" y1="160" x2="1020" y2="160" stroke="#2c4b8e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>
