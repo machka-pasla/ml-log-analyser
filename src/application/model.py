@@ -15,9 +15,7 @@ class IAnomalyDetector(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def predict(
-        self, events: list[LogEvent], threshold: float
-    ) -> list[AnomalyResult]:
+    def predict(self, events: list[LogEvent], threshold: float) -> list[AnomalyResult]:
         raise NotImplementedError
 
     @abstractmethod

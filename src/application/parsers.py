@@ -33,9 +33,7 @@ class LogParser:
             data = match.groupdict()
             message = data.pop("message", "")
             attributes = {
-                k: v
-                for k, v in data.items()
-                if k not in {"timestamp", "level", "host", "service"}
+                k: v for k, v in data.items() if k not in {"timestamp", "level", "host", "service"}
             }
             user = _search_optional(USER_RE, message)
             ip = _search_optional(IP_RE, message)

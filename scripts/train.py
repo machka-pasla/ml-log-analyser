@@ -26,7 +26,9 @@ def main() -> None:
     extractor = FeatureExtractor()
     metadata = train_model(events, args.model, registry, extractor)
 
-    print(f"Saved model {metadata['model_type']} version {metadata['version']} to {metadata['path']}")
+    print(
+        f"Saved model {metadata['model_type']} version {metadata['version']} to {metadata['path']}"
+    )
 
 
 if __name__ == "__main__":

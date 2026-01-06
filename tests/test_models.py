@@ -22,7 +22,9 @@ def test_baseline_scores_unseen_message_higher() -> None:
     detector = FrequencyBaselineDetector()
     normal = [_event("User login succeeded")]
     detector.train(normal)
-    scores = detector.score([_event("User login succeeded"), _event("Privilege escalation attempt")])
+    scores = detector.score(
+        [_event("User login succeeded"), _event("Privilege escalation attempt")]
+    )
     assert scores[1] > scores[0]
 
 

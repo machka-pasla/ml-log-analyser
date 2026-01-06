@@ -35,9 +35,7 @@ class JsonFormatter(logging.Formatter):
             "processName",
             "process",
         }
-        extras = {
-            key: value for key, value in record.__dict__.items() if key not in standard_attrs
-        }
+        extras = {key: value for key, value in record.__dict__.items() if key not in standard_attrs}
         payload.update(extras)
         if record.exc_info:
             payload["exc_info"] = self.formatException(record.exc_info)

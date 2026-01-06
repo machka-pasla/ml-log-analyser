@@ -39,7 +39,9 @@ def generate_events(
     normal_count = total - anomaly_count
 
     events.extend(_generate_normal_events(normal_count, start_time))
-    events.extend(_generate_anomaly_events(anomaly_count, start_time + timedelta(minutes=normal_count)))
+    events.extend(
+        _generate_anomaly_events(anomaly_count, start_time + timedelta(minutes=normal_count))
+    )
     random.shuffle(events)
     return events
 

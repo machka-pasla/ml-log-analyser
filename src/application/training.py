@@ -22,7 +22,9 @@ def train_model(
     if model_type == "baseline":
         detector = FrequencyBaselineDetector(model_version="baseline")
     elif model_type in {"isolation_forest", "iforest"}:
-        detector = IsolationForestDetector(feature_extractor=feature_extractor, model_version="iforest")
+        detector = IsolationForestDetector(
+            feature_extractor=feature_extractor, model_version="iforest"
+        )
     else:
         raise ValueError(f"Unsupported model type: {model_type}")
     detector.train(events_list)

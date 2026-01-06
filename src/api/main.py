@@ -20,6 +20,7 @@ from infrastructure.storage import Storage
 
 logger = logging.getLogger(__name__)
 
+
 def _build_service(storage: Storage, registry: ModelRegistry) -> AnomalyService:
     parser = LogParser()
     feature_extractor = FeatureExtractor()
@@ -56,9 +57,7 @@ async def lifespan(app: FastAPI):
                 app.state.model_loaded = True
                 logger.info("model_bootstrapped", extra={"path": str(bootstrap_path)})
             else:
-                logger.warning(
-                    "bootstrap_path_missing", extra={"path": str(bootstrap_path)}
-                )
+                logger.warning("bootstrap_path_missing", extra={"path": str(bootstrap_path)})
         if not app.state.model_loaded:
             logger.warning("model_not_loaded", extra={"error": str(exc)})
     yield
@@ -78,7 +77,6 @@ class IngestResponse(BaseModel):
     received: int
     anomalies: int
     model_version: str
-
 
 
 @app.get("/health")

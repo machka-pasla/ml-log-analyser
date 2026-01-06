@@ -71,8 +71,10 @@ class Storage:
 
     def get_anomalies(self, limit: int = 50, min_score: float | None = None) -> list[dict]:
         with Session(self.engine) as session:
-            stmt = select(LogRecord).where(LogRecord.is_anomaly.is_(True)).order_by(
-                LogRecord.anomaly_score.desc()
+            stmt = (
+                select(LogRecord)
+                .where(LogRecord.is_anomaly.is_(True))
+                .order_by(LogRecord.anomaly_score.desc())
             )
             if min_score is not None:
                 stmt = stmt.where(LogRecord.anomaly_score >= min_score)
