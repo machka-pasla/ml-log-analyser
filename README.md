@@ -142,10 +142,15 @@ pytest
 - `docs/analysis.tex` — LaTeX-документ «Анализатор логов на основе ИИ» по ГОСТ.
 - Примеры логов: `data/logs/`.
 
-Сборка отчёта (нужен `inkscape` для SVG, запускать из `docs/` дважды для ссылок и оглавления):
+Сборка отчёта (нужен `rsvg-convert` из `librsvg` для SVG, запускать из корня дважды для ссылок и оглавления):
 
 ```bash
-cd docs
-xelatex --shell-escape analysis.tex
-xelatex --shell-escape analysis.tex
+xelatex --shell-escape -output-directory=docs docs/analysis.tex
+xelatex --shell-escape -output-directory=docs docs/analysis.tex
+```
+
+Или одной командой (чистит `svg-inkscape` и вспомогательные файлы):
+
+```bash
+scripts/build-report.sh
 ```

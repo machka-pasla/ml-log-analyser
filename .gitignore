@@ -36,6 +36,14 @@ env/
 .DS_Store
 Thumbs.db
 
+# LaTeX build artifacts
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+svg-inkscape/
+docs/svg-inkscape/
+
 # Local-only files
 task.txt
 ГОСТ 7.32-2017.pdf
